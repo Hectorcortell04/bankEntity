@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+   <TextView
+       android:id="@+id/bienvenido"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="¡Bienvenido 12345678H!"
+       android:textSize="30sp"
+       android:layout_margin="30dp"
+       />
+   <TextView
+       android:id="@+id/saldo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Balance: 1000€"
+       android:textSize="30sp"
+       android:layout_margin="30dp"
+       />
+
+    <EditText
+        android:id="@+id/importe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Importe"
+        android:textSize="50sp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:textSize="30sp"
+       />
+    <Button
+        android:id="@+id/extraer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extraer"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
